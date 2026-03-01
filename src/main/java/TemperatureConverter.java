@@ -15,5 +15,12 @@ public class TemperatureConverter
         return tempCelsius < -40 || tempCelsius > 50;
     }
 
+    public double kelvinToCelsius(double tempKelvin)
+    {
+        return tempKelvin - 273.15;
+    }
+
+
+
 }
 
